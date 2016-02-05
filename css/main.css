@@ -1,0 +1,86 @@
+header {
+	padding: 0.5% 5%;
+}
+
+header nav img {
+	height: 11%;
+	width: 11%;
+}
+
+ul {
+	float: right;
+	margin-top: 1%;
+}
+
+ul a {
+	text-decoration: none;
+	float: left;
+	margin-right: 25px;
+	border-right: 1px solid #606060;
+	padding-right: 30px;
+	font-family: ProximaNovaRegular;
+	color: #606060;
+	font-size: 1.5vw;
+}
+
+ul a:last-child {
+	border-right: none;
+}
+
+#banner {
+	background-image: url("../img/hero-image.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	width: 100%;
+	color: #F6F6F6;
+	font-family: ProximaNovaLight;
+	font-size: 2.4vw;
+	text-align: center;
+	padding: 12% 0 0 0;
+}
+
+#banner h1 {
+	width: 55%;
+	margin: auto;
+}
+
+#banner img {
+	height: 5%;
+	width: 3%;
+	margin: 5% 0;
+}
+
+#main_info {
+	padding: 5% 0;
+	text-align: center;
+}
+
+#main_info p {
+	width: 48%;
+	font-family: ProximaNovaRegular;
+	font-size: 1.4vw;
+	margin: auto;
+	line-height: 200%;
+}
+
+.iconos_box {
+	border: 0.3vw solid #E4E2E2;
+}
+
+#main_info h3 {
+	color: #002366;
+	font-size: 2vw;
+	font-family: ProximaNovaLight;
+	width: 40%;
+	margin: 5% auto;
+}
+
+#main_info .col-4 img {
+	height: 15%;
+	width: 15%;
+}
+
+#main_info .col-4 p {
+	font-size: 1vw;
+	width: 55%;
+}
