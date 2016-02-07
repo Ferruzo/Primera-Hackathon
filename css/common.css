@@ -23,3 +23,15 @@
  	font-family: ProximaNovaSemibold;
  	src: url("../fonts/proxima nova/ProximaNova-Semibold.otf");
  } 
+body {
+	font-family: ProximaNovaRegular;
+}
+
+a {
+	text-decoration: none;
+	color: #606060;
+}
+
+.pd-5 {
+	padding: 5%;
+}

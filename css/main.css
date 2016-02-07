@@ -1,86 +1,43 @@
 header {
-	padding: 0.5% 5%;
+	padding: 1% 5%;
 }
 
 header nav img {
-	height: 11%;
-	width: 11%;
-}
-
-ul {
-	float: right;
-	margin-top: 1%;
-}
-
-ul a {
-	text-decoration: none;
+	width: 10%;
+	height: 10%;
 	float: left;
-	margin-right: 25px;
-	border-right: 1px solid #606060;
-	padding-right: 30px;
-	font-family: ProximaNovaRegular;
-	color: #606060;
-	font-size: 1.5vw;
 }
 
-ul a:last-child {
-	border-right: none;
+header nav ul {
+	float: right;
+	width:26%;
+	padding: 1% 0;
+}
+
+nav ul a {
+	border-right: 1px solid #606060;
+	padding:0 13%;
+	float: left;
+	font-size: 1rem;
+}
+
+nav ul a:last-child {
+	border: none;
 }
 
 #banner {
-	background-image: url("../img/hero-image.jpg");
+	background-image: url("../img/hero-image-2x.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-position: center;
 	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+#banner .container-fluid .row h1 {
 	color: #F6F6F6;
+	font-size: 5rem;
+	width: 60%;
+	margin: 15% auto 16%;
 	font-family: ProximaNovaLight;
-	font-size: 2.4vw;
-	text-align: center;
-	padding: 12% 0 0 0;
-}
-
-#banner h1 {
-	width: 55%;
-	margin: auto;
-}
-
-#banner img {
-	height: 5%;
-	width: 3%;
-	margin: 5% 0;
-}
-
-#main_info {
-	padding: 5% 0;
-	text-align: center;
-}
-
-#main_info p {
-	width: 48%;
-	font-family: ProximaNovaRegular;
-	font-size: 1.4vw;
-	margin: auto;
-	line-height: 200%;
-}
-
-.iconos_box {
-	border: 0.3vw solid #E4E2E2;
-}
-
-#main_info h3 {
-	color: #002366;
-	font-size: 2vw;
-	font-family: ProximaNovaLight;
-	width: 40%;
-	margin: 5% auto;
-}
-
-#main_info .col-4 img {
-	height: 15%;
-	width: 15%;
-}
-
-#main_info .col-4 p {
-	font-size: 1vw;
-	width: 55%;
 }
