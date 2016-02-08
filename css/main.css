@@ -40,7 +40,7 @@ header img {
 }
 
 .menu ul {
-	background-color: rgba(60, 60, 60, 0.86);
+	background-color: #fff;
 	display: flex;
 	list-style-type: none;
 	flex-direction: column;
@@ -50,7 +50,7 @@ header img {
 .menu a {
 	display: block;
 	padding: 10px;
-	color: #fff;
+	color: #606060;
 	text-decoration: none;
 }
 
@@ -68,7 +68,7 @@ header img {
 
 }
 
-#banner .row img {
+.arrow {
 	margin: 30px 0;
 	height: 40px;
 	width: 25px;
@@ -80,15 +80,92 @@ header img {
 	font-size: 1rem;
 }
 
-#main_info p {
+.main_info_p {
 	padding: 30px;
 	display: flex;
 }
 
-#main_info .row h2 {
-	margin: 20px 0px 50px;
+.subheading {
+	margin: 20px 0 50px;
 	color: #002366;
 	font-family: ProximaNovaLight;
 	padding: 0 20px;
+}
+
+.box_main_info {
+	border: 1px solid #AFB1B1;
+	padding: 25px;
+	font-size: 0.8rem;
+	height: 260px;
+	width: 260px;
+	margin: 0 auto 15px;
+}
+
+.box_main_info img {
+	height: 17%;
+	width: 17%;
+}
+
+.box_main_info h2 {
+	font-family: ProximaNovaLight;
+	color: #002366;
+	margin: 5px 0 10px;
+	font-size: 1.5rem;
+}
+
+#contact_us {
+	background-color: #F6F6F6;
+	padding: 50px 20px;
+	border-bottom: 1px solid #DBDCDC;
+}
+
+#contact_us h1 {
+	color: #002366;
+	font-family: ProximaNovaLight;
+}
+
+#contact_us p {
+	font-size: 1rem;
+	margin: 10px 0;
+	padding: 20px;
+}
+
+.input {
+	text-align: center;
+	padding: 10px;
 	display: flex;
+	margin: 0 auto 10px;
+	width: 260px;
+	font-size: 1rem;
+}
+
+#send {
+	background-color: #179AD6;
+	color: #fff;
+	width: 260px;
+	padding: 10px;
+	border: 1px solid #179AD6;
+	font-size: 1rem;
+}
+
+footer {
+	padding: 20px;
+}
+
+footer h5 {
+	display: inline-block;
+	margin: 0 15px 15px 0;
+	font-family: ProximaNovaLight;
+}
+
+
+.footer_img_box img {
+	height: 25px;
+	width: 25px;
+	margin: 0 5px 5px;
+}
+
+.legal p {
+	font-size: 0.6rem;
+	line-height: 23px;
 }
