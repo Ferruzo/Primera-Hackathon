@@ -1,18 +1,18 @@
 @font-face{
 	font-family:Novabold;
-	src: url(../fonts/proximanova/proximanova-bold-webfont.ttf);
+	src: url("../fonts/nova/proximanova-bold-webfont.ttf");
 }
 @font-face{
 	font-family:Nova-light;
-	src: url(../fonts/proximanova/proximanova-light-webfont.ttf);
+	src: url("../fonts/nova/proximanova-light-webfont.ttf");
 }
 @font-face{
 	font-family:Nova-regitalic;
-	src: url(../fonts/proximanova/proximanova-regitalic-webfont.ttf);
+	src: url("../fonts/nova/proximanova-regitalic-webfont.ttf");
 }
 @font-face{
 	font-family:Nova-regular;
-	src: url(../fonts/proximanova/proximanova-regular-webfont.ttf);
+	src: url("../fonts/nova/proximanova-regular-webfont.ttf");
 }
 
 /* Shortcuts */
