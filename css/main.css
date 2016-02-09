@@ -1,3 +1,5 @@
+@media (max-width: 480px) {
+
 header {
 	height: 40px;
 	background-color: #fff;
@@ -168,4 +170,53 @@ footer h5 {
 .legal p {
 	font-size: 0.6rem;
 	line-height: 23px;
+}
+
+}
+
+@media (min-width: 480px) {
+	
+	header {
+		text-align: left;
+	}
+
+	header img {
+		margin-left: 0;
+	}
+
+	.bars {
+		display: none;
+	}
+
+	#btn-menu {
+		display: none;
+	}
+
+	.menu {
+	padding: 5px;
+}
+
+.menu ul {
+	display: flex;
+	list-style-type: none;
+	float: left;
+}
+
+.menu a {
+	color: #606060;
+	text-decoration: none;
+}
+
+#banner {
+	background-image: url("../img/hero-image-2x.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 380px;
+	font-size: 1.5rem;
+	color: #F6F6F6;
+	font-family: ProximaNovaLight;
+	padding: 80px 30px 10px;
+
 }
