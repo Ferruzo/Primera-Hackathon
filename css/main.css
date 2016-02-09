@@ -253,8 +253,11 @@ footer h5 {
 }
 
 .container_main_info {
-	width: 100%;
+	width: 800px;
 	height: 300px;
+	text-align: center;
+	display: flex;
+	margin: auto;
 }
 
 .box_main_info {
@@ -263,8 +266,8 @@ footer h5 {
 	font-size: 0.8rem;
 	height: 230px;
 	width: 230px;
-	margin: auto;
 	display: inline-block;
+	margin-right: 30px;
 }
 
 .box_main_info img {
