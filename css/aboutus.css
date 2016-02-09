@@ -191,6 +191,14 @@ ul li{
 	margin: 20px;
 	
 }
+
+.integrantes {
+	background-color: #F6F6F6;
+	margin-top: -20px;
+	height: 1700px;
+}
+
+
 .texto1{
 	color: #606060;
 	font-family:"Nova-regular";
@@ -216,7 +224,7 @@ ul li{
 	font-size: 14px;
 }
 .til{
-	padding-left: 600px;
+	text-align: center;
 	font-size: 45px;
 	font-family:"Nova-light";
 	padding-top: 50px;
@@ -227,10 +235,9 @@ ul li{
 	font-size: 18px;
 	font-family: "Nova-regular";
 	padding-top: 40px;
-     position: center;
      text-align: center;
      line-height: 35px;
-     padding-left: 400px;
+
 }
 .dos{
 	font-size: 23px;
@@ -238,3 +245,110 @@ ul li{
 	color:#002366;
 }
 
+.Careers {
+	margin: auto;
+	position: relative;
+	top: 60px;
+	left: 380px;
+	margin: 20px 0;
+}
+
+.founder {
+	position: relative;
+	top: 350px;
+	left: -180px;
+}
+
+.common {
+	text-align: center;
+	background-color: #fff;
+	width: 200px;
+	height: 240px;
+	padding: 5px;
+	margin-right: 20px;
+}
+
+.img_box {
+	position: relative;
+	top: 250px;
+	right: -300px;
+	text-align: center;
+}
+
+.name {
+	margin: 5px 0;
+}
+
+.img_box2 {
+	position: relative;
+	top: 10px;
+	left: 530px;
+}
+
+.team {
+	font-size: 25px;
+	position: relative;
+	top: 60px;
+	left: 25px;
+}
+
+.img_box3 {
+	position: relative;
+	top: 90px;
+	left: 150px;
+}
+
+.img_box4 {
+	position: relative;
+	top: -150px;
+	left: 380px;
+}
+
+.img_box5 {
+	position: relative;
+	top: -390px;
+	left: 610px;
+}
+
+.img_box6 {
+	position: relative;
+	top: -350px;
+	left: 280px;
+}
+
+.img_box7 {
+	position: relative;
+	top: -590px;
+	left: 510px;
+}
+
+ul li{
+	display: inline-block;
+	position: relative;
+	margin: 20px;
+	
+}
+.abajo1{
+	color: #606060;
+	font-family:"Nova-regular";
+
+}
+.abajo2{
+	color: #979797;
+	font-family:"Nova-light";
+
+}
+.centro{
+	text-align: center;
+	background-color: white;
+	margin-top: -400px;
+}
+.izquierda{
+	margin-right: 5px;
+}
+.derecha{
+	margin-left: 1%;
+}
+.final{
+	font-size: 14px;
+}

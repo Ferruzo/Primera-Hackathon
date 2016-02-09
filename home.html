@@ -6,12 +6,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/main-bootstrap.css">
 		<link rel="stylesheet" href="css/common.css">
 		<link rel="stylesheet" href="css/grid-system.css">
 		<link rel="icon" href="img/logo-iconos/logoicon.png">
 	</head>
 	<body>
-		<header>
+		<header class="hidden-lg hidden-md">
 			<img src="img/logo-iconos/sentient-logo.png" alt="SentientLogo" />
 			<input type="checkbox" id="btn-menu">
 			<label for="btn-menu"<i class="fa fa-bars bars"></i></label>
@@ -22,21 +23,37 @@
 				</ul>
 			</nav>
 		</header>
-		<section id="banner">
-			<div class="container-fluid">
+
+		<header class="hidden-xs hidden-sm header-navbar">
+			<div class="row">
+				<div class="col-md-2">
+					<img src="img/logo-iconos/sentient-logo.png" alt="SentientLogo" />
+				</div>
+				<div class="col-md-10">
+					<a href="#" class="pull-right header-nav">Contact us</a>
+					<a class="pull-right mt-21">|</a>
+					<a href="#" class="pull-right header-nav">About SIM </a>
+
+				</div>
+			</div>
+		</header>
+
+
+		<section id="banner" class="p-70 minh-350">
+			<div class="container-fluid mt-35">
 					<h1>Sentient Investment Management.</h1>
 					<h1>Trading. Evolved.</h1>
 				<div>
-					<a href="#main_info"><img class="arrow"src="img/logo-iconos/flecha-scroll-down-home.png" alt="SentientArrow" /></a>
+					<a href="#main_info"><img class="arrow mt-35"src="img/logo-iconos/flecha-scroll-down-home.png" alt="SentientArrow" /></a>
 				</div>
 			</div>
 		</section>
 		<section id="main_info">
-			<div class="container-fluid">
+			<div class="container-sm">
 					<p class="main_info_p">
 						Sentient Investment Management Is a San Francisco-based firm developing and applying propietary quantitative trading and investment strategies built using the world's most powerful distributed artificial intelligence system.
 					</p>
-					<h2 class="subheading">Sentient Investment Management is based in San Francisco, CA. </h2>
+					<h2 class="subheading ph-0-xs">Sentient Investment Management is based in San Francisco, CA. </h2>
 			</div>
 				<div class="container_main_info">
 					<div class="box_main_info">
@@ -45,7 +62,7 @@
 						<p>Using the world's largest evolutionary computation system and deep learning, SIM derives trading strategies from previously unseen patterns.</p>
 					</div>
 					<div class="box_main_info">
-						<img src="img/logo-iconos/careers.png" alt="World">
+						<img src="img/logo-iconos/careers-icon.png" alt="People">
 						<h2>Careers</h2>
 						<p>Join the SIM team and drive the future of automated AI-based trading.</p>
 					</div>
